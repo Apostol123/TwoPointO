@@ -12,19 +12,10 @@
 		9DFE594828EF6FA500FF9B51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DFE594728EF6FA500FF9B51 /* Assets.xcassets */; };
 		9DFE594B28EF6FA500FF9B51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DFE594A28EF6FA500FF9B51 /* Preview Assets.xcassets */; };
 		9DFE595528EF6FA500FF9B51 /* TwoPointOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFE595428EF6FA500FF9B51 /* TwoPointOTests.swift */; };
-		9DFE595F28EF6FA600FF9B51 /* TwoPointOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFE595E28EF6FA600FF9B51 /* TwoPointOUITests.swift */; };
-		9DFE596128EF6FA600FF9B51 /* TwoPointOUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFE596028EF6FA600FF9B51 /* TwoPointOUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		9DFE595128EF6FA500FF9B51 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9DFE593828EF6FA300FF9B51 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9DFE593F28EF6FA300FF9B51;
-			remoteInfo = TwoPointO;
-		};
-		9DFE595B28EF6FA600FF9B51 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9DFE593828EF6FA300FF9B51 /* Project object */;
 			proxyType = 1;
@@ -41,9 +32,6 @@
 		9DFE594A28EF6FA500FF9B51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9DFE595028EF6FA500FF9B51 /* TwoPointOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoPointOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DFE595428EF6FA500FF9B51 /* TwoPointOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoPointOTests.swift; sourceTree = "<group>"; };
-		9DFE595A28EF6FA600FF9B51 /* TwoPointOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoPointOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DFE595E28EF6FA600FF9B51 /* TwoPointOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoPointOUITests.swift; sourceTree = "<group>"; };
-		9DFE596028EF6FA600FF9B51 /* TwoPointOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoPointOUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +49,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DFE595728EF6FA600FF9B51 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -76,7 +57,6 @@
 			children = (
 				9DFE594228EF6FA300FF9B51 /* TwoPointO */,
 				9DFE595328EF6FA500FF9B51 /* TwoPointOTests */,
-				9DFE595D28EF6FA600FF9B51 /* TwoPointOUITests */,
 				9DFE594128EF6FA300FF9B51 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,7 +66,6 @@
 			children = (
 				9DFE594028EF6FA300FF9B51 /* TwoPointO.app */,
 				9DFE595028EF6FA500FF9B51 /* TwoPointOTests.xctest */,
-				9DFE595A28EF6FA600FF9B51 /* TwoPointOUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,15 +95,6 @@
 				9DFE595428EF6FA500FF9B51 /* TwoPointOTests.swift */,
 			);
 			path = TwoPointOTests;
-			sourceTree = "<group>";
-		};
-		9DFE595D28EF6FA600FF9B51 /* TwoPointOUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9DFE595E28EF6FA600FF9B51 /* TwoPointOUITests.swift */,
-				9DFE596028EF6FA600FF9B51 /* TwoPointOUITestsLaunchTests.swift */,
-			);
-			path = TwoPointOUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +135,6 @@
 			productReference = 9DFE595028EF6FA500FF9B51 /* TwoPointOTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9DFE595928EF6FA600FF9B51 /* TwoPointOUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9DFE596A28EF6FA600FF9B51 /* Build configuration list for PBXNativeTarget "TwoPointOUITests" */;
-			buildPhases = (
-				9DFE595628EF6FA600FF9B51 /* Sources */,
-				9DFE595728EF6FA600FF9B51 /* Frameworks */,
-				9DFE595828EF6FA600FF9B51 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9DFE595C28EF6FA600FF9B51 /* PBXTargetDependency */,
-			);
-			name = TwoPointOUITests;
-			productName = TwoPointOUITests;
-			productReference = 9DFE595A28EF6FA600FF9B51 /* TwoPointOUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +149,6 @@
 						CreatedOnToolsVersion = 13.0;
 					};
 					9DFE594F28EF6FA500FF9B51 = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = 9DFE593F28EF6FA300FF9B51;
-					};
-					9DFE595928EF6FA600FF9B51 = {
 						CreatedOnToolsVersion = 13.0;
 						TestTargetID = 9DFE593F28EF6FA300FF9B51;
 					};
@@ -221,7 +169,6 @@
 			targets = (
 				9DFE593F28EF6FA300FF9B51 /* TwoPointO */,
 				9DFE594F28EF6FA500FF9B51 /* TwoPointOTests */,
-				9DFE595928EF6FA600FF9B51 /* TwoPointOUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,13 +184,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9DFE594E28EF6FA500FF9B51 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9DFE595828EF6FA600FF9B51 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -270,15 +210,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DFE595628EF6FA600FF9B51 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9DFE596128EF6FA600FF9B51 /* TwoPointOUITestsLaunchTests.swift in Sources */,
-				9DFE595F28EF6FA600FF9B51 /* TwoPointOUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -286,11 +217,6 @@
 			isa = PBXTargetDependency;
 			target = 9DFE593F28EF6FA300FF9B51 /* TwoPointO */;
 			targetProxy = 9DFE595128EF6FA500FF9B51 /* PBXContainerItemProxy */;
-		};
-		9DFE595C28EF6FA600FF9B51 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9DFE593F28EF6FA300FF9B51 /* TwoPointO */;
-			targetProxy = 9DFE595B28EF6FA600FF9B51 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -517,50 +443,6 @@
 			};
 			name = Release;
 		};
-		9DFE596B28EF6FA600FF9B51 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexApostol.TwoPointOUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TwoPointO;
-			};
-			name = Debug;
-		};
-		9DFE596C28EF6FA600FF9B51 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexApostol.TwoPointOUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TwoPointO;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -587,15 +469,6 @@
 			buildConfigurations = (
 				9DFE596828EF6FA600FF9B51 /* Debug */,
 				9DFE596928EF6FA600FF9B51 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9DFE596A28EF6FA600FF9B51 /* Build configuration list for PBXNativeTarget "TwoPointOUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9DFE596B28EF6FA600FF9B51 /* Debug */,
-				9DFE596C28EF6FA600FF9B51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
