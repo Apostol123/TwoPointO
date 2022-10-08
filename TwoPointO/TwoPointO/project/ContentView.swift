@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        Text("lng.howHabitsWork.content.label.text")
             .font(Font.theme(id: .semiBold24))
             .padding()
             .foregroundColor(Color.theme(.primary100))

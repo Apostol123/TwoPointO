@@ -23,6 +23,7 @@
 		9DFE598128F15F0400FF9B51 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DFE597728F15F0400FF9B51 /* Inter-Thin.ttf */; };
 		9DFE598228F15F0400FF9B51 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DFE597828F15F0400FF9B51 /* Inter-ExtraLight.ttf */; };
 		9DFE598E28F16CDC00FF9B51 /* TwoPointOColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFE598D28F16CDC00FF9B51 /* TwoPointOColor.swift */; };
+		9DFE599128F16DD000FF9B51 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DFE599328F16DD000FF9B51 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		9DFE597728F15F0400FF9B51 /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
 		9DFE597828F15F0400FF9B51 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
 		9DFE598D28F16CDC00FF9B51 /* TwoPointOColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoPointOColor.swift; sourceTree = "<group>"; };
+		9DFE599228F16DD000FF9B51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9DFE599428F16E3800FF9B51 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,7 @@
 		9DFE594228EF6FA300FF9B51 /* TwoPointO */ = {
 			isa = PBXGroup;
 			children = (
+				9DFE599528F16EBE00FF9B51 /* Utils */,
 				9DFE596D28F15EAB00FF9B51 /* Theme */,
 				9DFE598328F161C500FF9B51 /* project */,
 				9DFE594928EF6FA500FF9B51 /* Preview Content */,
@@ -123,6 +127,7 @@
 			children = (
 				9DFE596E28F15EB300FF9B51 /* Font */,
 				9DFE598D28F16CDC00FF9B51 /* TwoPointOColor.swift */,
+				9DFE599328F16DD000FF9B51 /* Localizable.strings */,
 			);
 			path = Theme;
 			sourceTree = "<group>";
@@ -152,6 +157,13 @@
 				9DFE594328EF6FA300FF9B51 /* TwoPointOApp.swift */,
 			);
 			path = project;
+			sourceTree = "<group>";
+		};
+		9DFE599528F16EBE00FF9B51 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,7 +229,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
+				es,
 			);
 			mainGroup = 9DFE593728EF6FA300FF9B51;
 			productRefGroup = 9DFE594128EF6FA300FF9B51 /* Products */;
@@ -236,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DFE597D28F15F0400FF9B51 /* Inter-Bold.ttf in Resources */,
+				9DFE599128F16DD000FF9B51 /* Localizable.strings in Resources */,
 				9DFE594B28EF6FA500FF9B51 /* Preview Assets.xcassets in Resources */,
 				9DFE597928F15F0400FF9B51 /* Inter-Light.ttf in Resources */,
 				9DFE597E28F15F0400FF9B51 /* Inter-ExtraBold.ttf in Resources */,
@@ -288,11 +301,24 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		9DFE599328F16DD000FF9B51 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFE599228F16DD000FF9B51 /* en */,
+				9DFE599428F16E3800FF9B51 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		9DFE596228EF6FA600FF9B51 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -354,6 +380,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
