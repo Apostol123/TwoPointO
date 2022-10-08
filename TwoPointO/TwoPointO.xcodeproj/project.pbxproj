@@ -12,6 +12,16 @@
 		9DFE594828EF6FA500FF9B51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DFE594728EF6FA500FF9B51 /* Assets.xcassets */; };
 		9DFE594B28EF6FA500FF9B51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DFE594A28EF6FA500FF9B51 /* Preview Assets.xcassets */; };
 		9DFE595528EF6FA500FF9B51 /* TwoPointOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFE595428EF6FA500FF9B51 /* TwoPointOTests.swift */; };
+		9DFE597928F15F0400FF9B51 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DFE596F28F15F0300FF9B51 /* Inter-Light.ttf */; };
+		9DFE597A28F15F0400FF9B51 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DFE597028F15F0300FF9B51 /* Inter-Regular.ttf */; };
+		9DFE597B28F15F0400FF9B51 /* TwoPointOFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFE597128F15F0300FF9B51 /* TwoPointOFont.swift */; };
+		9DFE597C28F15F0400FF9B51 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DFE597228F15F0300FF9B51 /* Inter-SemiBold.ttf */; };
+		9DFE597D28F15F0400FF9B51 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DFE597328F15F0400FF9B51 /* Inter-Bold.ttf */; };
+		9DFE597E28F15F0400FF9B51 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DFE597428F15F0400FF9B51 /* Inter-ExtraBold.ttf */; };
+		9DFE597F28F15F0400FF9B51 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DFE597528F15F0400FF9B51 /* Inter-Black.ttf */; };
+		9DFE598028F15F0400FF9B51 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DFE597628F15F0400FF9B51 /* Inter-Medium.ttf */; };
+		9DFE598128F15F0400FF9B51 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DFE597728F15F0400FF9B51 /* Inter-Thin.ttf */; };
+		9DFE598228F15F0400FF9B51 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DFE597828F15F0400FF9B51 /* Inter-ExtraLight.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +42,17 @@
 		9DFE594A28EF6FA500FF9B51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9DFE595028EF6FA500FF9B51 /* TwoPointOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoPointOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DFE595428EF6FA500FF9B51 /* TwoPointOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoPointOTests.swift; sourceTree = "<group>"; };
+		9DFE596F28F15F0300FF9B51 /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		9DFE597028F15F0300FF9B51 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		9DFE597128F15F0300FF9B51 /* TwoPointOFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoPointOFont.swift; sourceTree = "<group>"; };
+		9DFE597228F15F0300FF9B51 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		9DFE597328F15F0400FF9B51 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		9DFE597428F15F0400FF9B51 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		9DFE597528F15F0400FF9B51 /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		9DFE597628F15F0400FF9B51 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		9DFE597728F15F0400FF9B51 /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
+		9DFE597828F15F0400FF9B51 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		9DFE598628F1655700FF9B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,9 +94,8 @@
 		9DFE594228EF6FA300FF9B51 /* TwoPointO */ = {
 			isa = PBXGroup;
 			children = (
-				9DFE594328EF6FA300FF9B51 /* TwoPointOApp.swift */,
-				9DFE594528EF6FA300FF9B51 /* ContentView.swift */,
-				9DFE594728EF6FA500FF9B51 /* Assets.xcassets */,
+				9DFE596D28F15EAB00FF9B51 /* Theme */,
+				9DFE598328F161C500FF9B51 /* project */,
 				9DFE594928EF6FA500FF9B51 /* Preview Content */,
 			);
 			path = TwoPointO;
@@ -95,6 +115,42 @@
 				9DFE595428EF6FA500FF9B51 /* TwoPointOTests.swift */,
 			);
 			path = TwoPointOTests;
+			sourceTree = "<group>";
+		};
+		9DFE596D28F15EAB00FF9B51 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				9DFE596E28F15EB300FF9B51 /* Font */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		9DFE596E28F15EB300FF9B51 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				9DFE597528F15F0400FF9B51 /* Inter-Black.ttf */,
+				9DFE597328F15F0400FF9B51 /* Inter-Bold.ttf */,
+				9DFE597428F15F0400FF9B51 /* Inter-ExtraBold.ttf */,
+				9DFE597828F15F0400FF9B51 /* Inter-ExtraLight.ttf */,
+				9DFE596F28F15F0300FF9B51 /* Inter-Light.ttf */,
+				9DFE597628F15F0400FF9B51 /* Inter-Medium.ttf */,
+				9DFE597028F15F0300FF9B51 /* Inter-Regular.ttf */,
+				9DFE597228F15F0300FF9B51 /* Inter-SemiBold.ttf */,
+				9DFE597728F15F0400FF9B51 /* Inter-Thin.ttf */,
+				9DFE597128F15F0300FF9B51 /* TwoPointOFont.swift */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		9DFE598328F161C500FF9B51 /* project */ = {
+			isa = PBXGroup;
+			children = (
+				9DFE598628F1655700FF9B51 /* Info.plist */,
+				9DFE594728EF6FA500FF9B51 /* Assets.xcassets */,
+				9DFE594528EF6FA300FF9B51 /* ContentView.swift */,
+				9DFE594328EF6FA300FF9B51 /* TwoPointOApp.swift */,
+			);
+			path = project;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,8 +234,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DFE597D28F15F0400FF9B51 /* Inter-Bold.ttf in Resources */,
 				9DFE594B28EF6FA500FF9B51 /* Preview Assets.xcassets in Resources */,
+				9DFE597928F15F0400FF9B51 /* Inter-Light.ttf in Resources */,
+				9DFE597E28F15F0400FF9B51 /* Inter-ExtraBold.ttf in Resources */,
+				9DFE597A28F15F0400FF9B51 /* Inter-Regular.ttf in Resources */,
+				9DFE597C28F15F0400FF9B51 /* Inter-SemiBold.ttf in Resources */,
 				9DFE594828EF6FA500FF9B51 /* Assets.xcassets in Resources */,
+				9DFE597F28F15F0400FF9B51 /* Inter-Black.ttf in Resources */,
+				9DFE598228F15F0400FF9B51 /* Inter-ExtraLight.ttf in Resources */,
+				9DFE598128F15F0400FF9B51 /* Inter-Thin.ttf in Resources */,
+				9DFE598028F15F0400FF9B51 /* Inter-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DFE597B28F15F0400FF9B51 /* TwoPointOFont.swift in Sources */,
 				9DFE594628EF6FA300FF9B51 /* ContentView.swift in Sources */,
 				9DFE594428EF6FA300FF9B51 /* TwoPointOApp.swift in Sources */,
 			);
@@ -347,6 +413,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TwoPointO/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TwoPointO/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -376,6 +443,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TwoPointO/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TwoPointO/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
