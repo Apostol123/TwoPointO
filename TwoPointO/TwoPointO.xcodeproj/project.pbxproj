@@ -22,7 +22,6 @@
 		9DFE598028F15F0400FF9B51 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DFE597628F15F0400FF9B51 /* Inter-Medium.ttf */; };
 		9DFE598128F15F0400FF9B51 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DFE597728F15F0400FF9B51 /* Inter-Thin.ttf */; };
 		9DFE598228F15F0400FF9B51 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DFE597828F15F0400FF9B51 /* Inter-ExtraLight.ttf */; };
-		9DFE598928F1681A00FF9B51 /* TwoPointOColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFE598828F1681A00FF9B51 /* TwoPointOColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +52,7 @@
 		9DFE597628F15F0400FF9B51 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
 		9DFE597728F15F0400FF9B51 /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
 		9DFE597828F15F0400FF9B51 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
-		9DFE598828F1681A00FF9B51 /* TwoPointOColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoPointOColor.swift; sourceTree = "<group>"; };
+		9DFE598628F1655700FF9B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +121,6 @@
 			isa = PBXGroup;
 			children = (
 				9DFE596E28F15EB300FF9B51 /* Font */,
-				9DFE598828F1681A00FF9B51 /* TwoPointOColor.swift */,
 			);
 			path = Theme;
 			sourceTree = "<group>";
@@ -147,6 +145,7 @@
 		9DFE598328F161C500FF9B51 /* project */ = {
 			isa = PBXGroup;
 			children = (
+				9DFE598628F1655700FF9B51 /* Info.plist */,
 				9DFE594728EF6FA500FF9B51 /* Assets.xcassets */,
 				9DFE594528EF6FA300FF9B51 /* ContentView.swift */,
 				9DFE594328EF6FA300FF9B51 /* TwoPointOApp.swift */,
@@ -264,7 +263,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DFE597B28F15F0400FF9B51 /* TwoPointOFont.swift in Sources */,
-				9DFE598928F1681A00FF9B51 /* TwoPointOColor.swift in Sources */,
 				9DFE594628EF6FA300FF9B51 /* ContentView.swift in Sources */,
 				9DFE594428EF6FA300FF9B51 /* TwoPointOApp.swift in Sources */,
 			);
